@@ -105,3 +105,4 @@ gulp-tasks/bundle.js
 gulp-tasks/deploy.js
 gulp-tasks/scripts.js
 ```
+I had to tweak the Browserify task in Gulp a little bit because Browserify normally normally creates one big bundle where all functions are only accessible within the file. In APEX we need to access the modules from dynamic actions and other external JavaScript files, so I've attached the modules and widgets to a global namespace called kscope.
