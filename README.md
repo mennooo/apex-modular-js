@@ -18,8 +18,7 @@ npm install
 ```
 
 ## Install APEX Sample application
-The sample application works immediate without any further actions.
-You can import the demo application in your APEX workspace. It's located in:
+You can import the demo application in your APEX workspace. It works immediate without any further actions and is located at:
 ```
 apex/f103.sql
 ```
@@ -62,7 +61,8 @@ In a real world project you can tell Gulp to upload the content of the dist fold
 
 ## About the APEX sample application
 
-The application includes 4 examples about using the Modular JavaScript approach.
+The application includes 4 examples about using the Modular JavaScript approach. It's also available on apex.oracle.com:
+<a href="https://apex.oracle.com/pls/apex/f?p=78682" target="_blank">https://apex.oracle.com/pls/apex/f?p=78682</a>
 
 It's based around integrating the <a href="https://sciactive.com/pnotify/" target="_blank">pNotify plugin</a>.
 
