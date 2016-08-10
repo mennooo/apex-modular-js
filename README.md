@@ -58,7 +58,7 @@ A zipfile called `kscope.zip` will be created everytime you save a change:
 ```
 dist/kscope/kscope.zip
 ```
-Please upload the file `dist/kscope/kscope.zip` to APEX Static Application Files in the sample application. At this point you can use the new code in the application.
+Please upload the file `dist/kscope/kscope.zip` to APEX **Static Application Files** in the sample application. At this point you can use the new code in the application.
 
 In a real world project you can tell Gulp to upload the content of the dist folder to your webserver via sftp (most likely /i/ folder).
 
