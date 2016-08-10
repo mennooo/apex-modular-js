@@ -1,0 +1,9 @@
+{
+  "applications": [
+    {
+      "alias": "kscope",
+      "modules": ["message", "keyboardShortcuts"],
+      "widgets": ["customReport"]
+    }
+  ]
+}

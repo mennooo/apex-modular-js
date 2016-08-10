@@ -1,0 +1,53 @@
+{
+  "name": "apex-modular-js",
+  "version": "1.0.0",
+  "description": "Using modular JavaScript with Oracle Application Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mennooo/apex-modular-js.git"
+  },
+  "keywords": [
+    "orclapex"
+  ],
+  "author": "M.Hoogendijk (iAdvise)",
+  "license": "ISC",
+  "devDependencies": {
+    "app-module-path": "^1.0.6",
+    "async": "^1.5.2",
+    "browserify": "^13.0.1",
+    "browserify-global-shim": "^1.0.3",
+    "browserify-shim": "^3.8.12",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.1",
+    "gulp-filesize": "0.0.6",
+    "gulp-insert": "^0.5.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "gulp-zip": "^3.2.0",
+    "lodash.assign": "^4.0.8",
+    "remapify": "^2.1.0",
+    "require-dir": "^0.3.0",
+    "underscore": "^1.8.3",
+    "vinyl": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "keymaster": "^1.6.2",
+    "pnotify": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mennooo/apex-modular-js/issues"
+  },
+  "homepage": "https://github.com/mennooo/apex-modular-js#readme"
+}
