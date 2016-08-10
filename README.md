@@ -77,6 +77,8 @@ Examples:
 
 In example 4, it's not longer needed to include the message module in the `config.json` because it will be bundled as part of the keyboardShortcuts module. Feel free to test this out.
 
+The JavaScript files from this project are added under **User Interface Details** in the **JavaScript File URLs**. The filenames are **Substitution Variables** defined in the **Application Definition**.
+
 ## How the project works
 
 ### Bundling all modules and widgets
