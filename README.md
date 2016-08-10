@@ -3,7 +3,7 @@ Using modular JavaScript with Oracle Application Express
 
 This project is created for sample purposes only.
 
-## Install
+## Install this project
 - Open the command line
 - Go to your desired directory
 - Execute
@@ -13,7 +13,7 @@ cd apex-modular-js
 npm install
 ```
 
-## APEX Sample application
+## Install APEX Sample application
 You can import the demo application in your APEX workspace. It's located in:
 apex/f103.sql
 
@@ -22,3 +22,7 @@ apex/f103.sql
 ```bash
 npm start
 ```
+## Usage
+
+A zipfile called kscope.zip will be created everytime you save a change to a JavaScript file in the src/ folder.
+Please upload the file dist/kscope/kscope.zip to APEX Static Application Files in the sample application.
