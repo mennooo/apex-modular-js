@@ -90,14 +90,14 @@ For instance:
 - The module message.js requires jQuery and <a href="https://sciactive.com/pnotify/" target="_blank">pNotify</a> in order to work when bundled.
 - The module keyboardShortcuts.js requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
 
-The external plugins are preinstalled because they are available as NPM packages. The installation was done as follows.
+The external plugins are preinstalled and they are available as NPM packages. The installation was done as follows.
 Goto the root folder of this project and execute these commands:
 ```
 npm install --save pnotify
 npm install --save keymaster
 ```
 
-If you would like to add other external plugins, make sure the are available is NPM package at <a href="https://www.npmjs.com/" target="_blank">npmjs.com</a>.
+If you would like to add other external plugins, make sure they are available is NPM package at <a href="https://www.npmjs.com/" target="_blank">npmjs.com</a>.
 
 The tasks to bundle the modules and widgets and place all files for deployment in the `dist` folder is done via an automated task runner called <a href="http://gulpjs.com/" target="_blank">Gulp</a>.
 
