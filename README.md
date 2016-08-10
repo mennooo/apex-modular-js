@@ -1,7 +1,9 @@
 # apex-modular-js
 Using modular JavaScript with Oracle Application Express
 
-This project is created for sample purposes only.
+This project is created for sample purposes only. It demonstrates how the create and use reusable JavaScript modules & widgets in an APEX application. 
+
+Take a look at the folder structure and Gulp tasks.
 
 ## Install this project
 - Open the command line
@@ -66,3 +68,14 @@ Examples:
 - 4: Encapsulate kscope.message module inside keyboardShortcuts module (advanced usage)
 
 In example 4, it's not longer needed to include the message module in the `config.json` because it will be bundled as part of the keyboardShortcuts module. Feel free to test this out.
+
+## How the project works
+
+### Bundling all modules and widgets
+
+It's developed to demonstrate how to bundle required modules and widgets into a single file to add to your APEX application.
+A module dependency loader loads required clientside modules as part of the module. 
+
+For instance:
+- The module message.js requires jQuery and <a href="https://sciactive.com/pnotify/" target="_blank">pNotify</a> in order to work when bundled.
+- The module keyboardShortcuts requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
