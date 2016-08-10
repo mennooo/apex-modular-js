@@ -81,10 +81,20 @@ For instance:
 - The module keyboardShortcuts requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
 
 The external plugins are preinstalled because they are available as NPM packages. The installation was done as follows.
-Goto the root folder of this project and execute these command:
-`npm install --save pnotify`
-`npm install --save keymaster`
+Goto the root folder of this project and execute these commands:
+```
+npm install --save pnotify
+npm install --save keymaster
+```
 
-If you would like to add other external plugins, make sure the are available is NPM package at <a href="https://www.npmjs.com/" target="_blank">npmjs.com</a>
+If you would like to add other external plugins, make sure the are available is NPM package at <a href="https://www.npmjs.com/" target="_blank">npmjs.com</a>.
 
-The tasks to bundle the modules and widgets and place all files for deployment in the `dist` folder is done via an automated task runner called <a href="http://gulpjs.com/" target="_blank">Gulp</a>
+The tasks to bundle the modules and widgets and place all files for deployment in the `dist` folder is done via an automated task runner called <a href="http://gulpjs.com/" target="_blank">Gulp</a>.
+
+Gulp itself is a Node.js module which works well together with Browserify. Feel free to take a look at the Gulp config in:
+```
+gulpfile.js 
+gulp-tasks/bundle.js
+gulp-tasks/deploy.js
+gulp-tasks/scripts.js
+```
