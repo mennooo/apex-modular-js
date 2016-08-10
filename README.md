@@ -36,11 +36,12 @@ From the `src` folder you can create, edit or delete any files in:
 ```
 |-/src/
 	|-js
-    |-application
+    |-applications
       |-kscope
     |-modules
     |-widgets
 ```
+As you can see the `modules` and `widgets` folders are not placed inside the `applications` folder because we want to be able to use them in multiple applications.
 New modules are not added to your application immediate. If you want to include any module or widget in the sample application then change the following config file:
 ```
 config.json
@@ -105,4 +106,4 @@ gulp-tasks/bundle.js
 gulp-tasks/deploy.js
 gulp-tasks/scripts.js
 ```
-I had to tweak the Browserify task in Gulp a little bit because Browserify normally normally creates one big bundle where all functions are only accessible within the file. In APEX we need to access the modules from dynamic actions and other external JavaScript files, so I've attached the modules and widgets to a global namespace called kscope.
+I had to tweak the Browserify task in Gulp a little bit because Browserify normally normally creates one big bundle where all functions are only accessible within the file. In APEX we need to access the modules from dynamic actions and other external JavaScript files, so I've attached the modules and widgets to a global namespace called `kscope`.
