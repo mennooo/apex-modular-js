@@ -10,7 +10,6 @@ var source = require('vinyl-source-stream');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
 var _ = require('underscore');
-//var watchify = require('watchify');
 var uglify = require('gulp-uglify');
 var async = require('async');
 var es = require('event-stream');
@@ -131,15 +130,6 @@ gulp.task('bundle:bundleAll', function() {
   }).catch(function(err) {
     console.log(err);
   });
-
-  // Run a watchify job for each appGroup
-  /*config.applications.forEach(function(app) {
-
-    streams.push(bundleTask(app));
-
-  });
-
-	return es.merge(streams);*/
 
 });
 

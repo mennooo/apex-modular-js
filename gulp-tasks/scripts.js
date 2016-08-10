@@ -2,9 +2,6 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
-
-//var watch = require('gulp-watch');
-//var async = require('async');
 var plumber = require('gulp-plumber');
 var insert = require('gulp-insert');
 
