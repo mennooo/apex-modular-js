@@ -5,6 +5,8 @@ This project is created for sample purposes only. It demonstrates how the create
 
 The project was presented at the Kscope16 conference.
 
+Demo: <a href="https://apex.oracle.com/pls/apex/f?p=78682" target="_blank">https://apex.oracle.com/pls/apex/f?p=78682</a>
+
 Take a look at all the files to see how it works.
 
 ## Install this project
