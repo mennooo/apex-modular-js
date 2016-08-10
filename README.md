@@ -1,7 +1,7 @@
 # apex-modular-js
 Using modular JavaScript with Oracle Application Express
 
-This project is created for sample purposes only. It demonstrates how the create and use reusable JavaScript modules & widgets in an APEX application. 
+This project is created for sample purposes only. It demonstrates how the create and use reusable JavaScript modules & widgets in an APEX application. It's developed with a combination of Node.js, Gulp and Browserify.
 
 Take a look at the folder structure and Gulp tasks.
 
@@ -16,6 +16,7 @@ npm install
 ```
 
 ## Install APEX Sample application
+The sample application works immediate without any further actions.
 You can import the demo application in your APEX workspace. It's located in:
 ```
 apex/f103.sql
@@ -27,7 +28,7 @@ apex/f103.sql
 npm start
 ```
 ## Usage
-
+You can change the content of the JavaScript files to see how it affects the sample application.
 From the `src` folder you can create, edit or delete any files in:
 ```
 |-/src/
@@ -37,7 +38,7 @@ From the `src` folder you can create, edit or delete any files in:
     |-modules
     |-widgets
 ```
-If you want to include any module or widget in the sample application then change the following config file:
+New modules are not added to your application immediate. If you want to include any module or widget in the sample application then change the following config file:
 ```
 config.json
 ```
@@ -53,7 +54,7 @@ A zipfile called `kscope.zip` will be created everytime you save a change:
 ```
 dist/kscope/kscope.zip
 ```
-Please upload the file `dist/kscope/kscope.zip` to APEX Static Application Files in the sample application.
+Please upload the file `dist/kscope/kscope.zip` to APEX Static Application Files in the sample application. At this point you can use the new code in the application.
 
 ## About the APEX sample application
 
