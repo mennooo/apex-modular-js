@@ -88,7 +88,7 @@ A module dependency loader loads required clientside modules as part of the modu
 
 For instance:
 - The module message.js requires jQuery and <a href="https://sciactive.com/pnotify/" target="_blank">pNotify</a> in order to work when bundled.
-- The module keyboardShortcuts requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
+- The module keyboardShortcuts.js requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
 
 The external plugins are preinstalled because they are available as NPM packages. The installation was done as follows.
 Goto the root folder of this project and execute these commands:
