@@ -3,7 +3,9 @@ Using modular JavaScript with Oracle Application Express
 
 This project is created for sample purposes only. It demonstrates how the create and use reusable JavaScript modules & widgets in an APEX application. It's developed with a combination of Node.js, Gulp and Browserify.
 
-Take a look at the folder structure and Gulp tasks.
+The project was presented at the Kscope16 conference.
+
+Take a look at all the files to see how it works.
 
 ## Install this project
 - Open the command line
@@ -55,6 +57,7 @@ A zipfile called `kscope.zip` will be created everytime you save a change:
 dist/kscope/kscope.zip
 ```
 Please upload the file `dist/kscope/kscope.zip` to APEX Static Application Files in the sample application. At this point you can use the new code in the application.
+In a real world project you can tell Gulp to upload the content of the dist folder to your webserver via sftp (most likely /i/ folder).
 
 ## About the APEX sample application
 
