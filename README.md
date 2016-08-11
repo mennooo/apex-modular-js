@@ -1,7 +1,7 @@
 # apex-modular-js
 Using modular JavaScript with Oracle Application Express
 
-This project is created for sample purposes only. It demonstrates how the create and use reusable JavaScript modules & widgets in an APEX application. It's developed with a combination of Node.js, Gulp and Browserify.
+This project is created for sample purposes only. It demonstrates how to create and use reusable JavaScript modules & widgets in an APEX application. It's developed with a combination of Node.js, Gulp and Browserify.
 
 The project was presented at the Kscope16 conference.
 
