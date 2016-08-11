@@ -54,7 +54,7 @@ Saving changes to file in the `src` folder will automatically compile your files
     |-kscope
 ```
 
-A zipfile called `kscope.zip` will be created everytime you save a change:
+A zip file called `kscope.zip` will be created every time you save a change:
 ```
 dist/kscope/kscope.zip
 ```
@@ -72,7 +72,7 @@ It's based around integrating the <a href="https://sciactive.com/pnotify/" targe
 Examples:
 - 1: Load nessecary files in page, put code inside dynamic action (not recommended)
 - 2: Encapsulate pNotify in kscope.message module, put code in p2.js file (a bit better)
-- 3: Encapsulate kscope.message module in dynamic action plugin, add dynamic action to page 3 (prefered solution)
+- 3: Encapsulate kscope.message module in dynamic action plugin, add dynamic action to page 3 (preferred solution)
 - 4: Encapsulate kscope.message module inside keyboardShortcuts module (advanced usage)
 
 In example 4, it's not longer needed to include the message module in the `config.json` because it will be bundled as part of the keyboardShortcuts module. Feel free to test this out.
@@ -84,14 +84,14 @@ The JavaScript files from this project are added under **User Interface Details*
 ### Bundling all modules and widgets
 
 It's developed to demonstrate how to bundle required modules and widgets into a single file to add to your APEX application.
-A module dependency loader loads required clientside modules as part of the module. In this case a module dependency loader called <a href="http://browserify.org/" target="_blank">Browserify</a> was used.
+A module dependency loader loads required client side modules as part of the module. In this case a module dependency loader called <a href="http://browserify.org/" target="_blank">Browserify</a> was used.
 
 For instance:
 - The module message.js requires jQuery and <a href="https://sciactive.com/pnotify/" target="_blank">pNotify</a> in order to work when bundled.
 - The module keyboardShortcuts.js requires <a href="https://github.com/madrobby/keymaster" target="_blank">keymaster</a> and our message module in order to work when bundled.
 
 The external plugins are preinstalled and they are available as NPM packages. The installation was done as follows.
-Goto the root folder of this project and execute these commands:
+Go to the root folder of this project and execute these commands:
 ```
 npm install --save pnotify
 npm install --save keymaster
@@ -108,4 +108,4 @@ gulp-tasks/bundle.js
 gulp-tasks/deploy.js
 gulp-tasks/scripts.js
 ```
-I had to tweak the Browserify task in Gulp a little bit because Browserify normally normally creates one big bundle where all functions are only accessible within the file. In APEX we need to access the modules from dynamic actions and other external JavaScript files, so I've attached the modules and widgets to a global namespace called `kscope`.
+I had to tweak the Browserify task in Gulp a little bit because Browserify typically creates one big bundle where all functions are only accessible within the file. In APEX we need to access the modules from dynamic actions and other external JavaScript files, so I've attached the modules and widgets to a global namespace called `kscope`.
