@@ -9,6 +9,11 @@ Demo: <a href="https://apex.oracle.com/pls/apex/f?p=78682" target="_blank">https
 
 Take a look at all the files to see how it works.
 
+## System Requirements
+- [Node.js](https://nodejs.org)
+- [Oracle APEX](https://apex.oracle.com)
+- [Git](https://git-scm.com/downloads)
+
 ## Install this project
 - Open the command line
 - Go to your desired directory
