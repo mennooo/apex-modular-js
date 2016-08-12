@@ -36,6 +36,7 @@
     "lodash.assign": "^4.0.8",
     "remapify": "^2.1.0",
     "require-dir": "^0.3.0",
+    "require-reload": "^0.2.2",
     "underscore": "^1.8.3",
     "vinyl": "^1.1.1",
     "vinyl-buffer": "^1.0.0",
@@ -44,8 +45,7 @@
   },
   "dependencies": {
     "keymaster": "^1.6.2",
-    "pnotify": "^3.0.0",
-    "require-reload": "^0.2.2"
+    "pnotify": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/mennooo/apex-modular-js/issues"
