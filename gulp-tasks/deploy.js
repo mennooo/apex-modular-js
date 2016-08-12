@@ -3,7 +3,7 @@ var notify = require('gulp-notify');
 var zip = require('gulp-zip');
 
 gulp.task('deploy', ['bundle:bundleAll'],function() {
-  return gulp.src('dist/**/*', {
+  return gulp.src(['dist/**/*', '!dist/*.zip'], {
       base: 'dist'
     })
     .pipe(zip('kscope.zip'))
