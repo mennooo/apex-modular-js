@@ -7,7 +7,7 @@ The project was presented at the Kscope16 conference.
 
 Demo: <a href="https://apex.oracle.com/pls/apex/f?p=78682" target="_blank">https://apex.oracle.com/pls/apex/f?p=78682</a>
 
-Blogpost: <a href="https://blog.iadvise.eu/2016/08/12/apex-javascript-the-modular-way/" target="_blank">https://blog.iadvise.eu</a>
+Blogpost: [https://blog.iadvise.eu/2016/08/12/apex-javascript-the-modular-way/](https://blog.iadvise.eu/2016/08/12/apex-javascript-the-modular-way/)
 
 Take a look at all the files to see how it works.
 
