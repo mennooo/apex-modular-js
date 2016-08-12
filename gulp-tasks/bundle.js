@@ -13,7 +13,8 @@ var _ = require('underscore');
 var uglify = require('gulp-uglify');
 var async = require('async');
 var es = require('event-stream');
-var config;
+var reload = require('require-reload')(require);
+var config = reload('config.json');
 
 // relative file paths
 require('app-module-path').addPath(__dirname);
@@ -28,23 +29,6 @@ var onError = function(error) {
   gutil.log(error);
   this.emit('end');
 }
-
-var getConfig = function() {
-
-  var configPath = function() {
-    var parts = __dirname.split('/');
-    parts.splice(-1, 1);
-    return parts.join('/') + '/config.json';
-  }();
-
-  try {
-    delete require.cache[configPath];
-  } catch (e) {
-    // do nothing
-  }
-
-  return require('config.json');
-};
 
 var bundleTask = function(app, resolve, reject) {
 
@@ -116,8 +100,7 @@ var bundleTask = function(app, resolve, reject) {
 
 gulp.task('bundle:bundleAll', function() {
 
-  var config = getConfig();
-  //var streams = [];
+  config = reload('config.json');
 
   var tasks = config.applications.map(function(app) {
     return new Promise(function(resolve, reject) {

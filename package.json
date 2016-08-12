@@ -44,7 +44,8 @@
   },
   "dependencies": {
     "keymaster": "^1.6.2",
-    "pnotify": "^3.0.0"
+    "pnotify": "^3.0.0",
+    "require-reload": "^0.2.2"
   },
   "bugs": {
     "url": "https://github.com/mennooo/apex-modular-js/issues"
