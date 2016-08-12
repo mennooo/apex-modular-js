@@ -55,6 +55,8 @@ var bundleTask = function(app, resolve, reject) {
     dynamicJs.push("require('widgets/" + widget + "');");
   });
 
+  gutil.log(dynamicJs.join(''));
+
   var temp = new File({
     contents: new Buffer(dynamicJs.join(''))
   });

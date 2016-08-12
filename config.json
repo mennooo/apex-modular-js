@@ -2,7 +2,7 @@
   "applications": [
     {
       "alias": "kscope",
-      "modules": ["keyboardShortcuts"],
+      "modules": ["message", "keyboardShortcuts"],
       "widgets": ["customReport"]
     }
   ]
