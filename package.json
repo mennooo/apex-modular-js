@@ -4,7 +4,14 @@
   "description": "Using modular JavaScript with Oracle Application Express",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "apex-to-file" : "apex-source-control apex-to-file",
+    "file-to-apex" : "apex-source-control file-to-apex",
+    "new-conf-file" : "apex-source-control new-conf-file",
+    "switch-conf-file" : "apex-source-control switch-conf-file",
+    "read-conf-file" : "apex-source-control read-conf-file",
+    "generate-app-id" : "apex-source-control generate-app-id",
+    "uninstall-apex" : "apex-source-control uninstall-apex"
   },
   "repository": {
     "type": "git",
@@ -51,14 +58,4 @@
     "url": "https://github.com/mennooo/apex-modular-js/issues"
   },
   "homepage": "https://github.com/mennooo/apex-modular-js#readme"
-
-  "scripts": {
-    "apex-to-file" : "apex-source-control apex-to-file",
-    "file-to-apex" : "apex-source-control file-to-apex",
-    "new-conf-file" : "apex-source-control new-conf-file",
-    "switch-conf-file" : "apex-source-control switch-conf-file",
-    "read-conf-file" : "apex-source-control read-conf-file",
-    "generate-app-id" : "apex-source-control generate-app-id",
-    "uninstall-apex" : "apex-source-control uninstall-apex"
- },
 }
